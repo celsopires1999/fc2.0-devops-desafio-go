@@ -1,0 +1,15 @@
+FROM golang:latest
+
+WORKDIR /go/src
+
+COPY . .
+
+ENV PATH="/go/bin:${PATH}"
+
+RUN apt-get update
+
+RUN go install
+
+#CMD ["tail", "-f", "/dev/null"]
+
+CMD ["codeeducation"]
