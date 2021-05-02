@@ -23,7 +23,7 @@ Divirta-se
 
 1. Executar o comando `docker run celsopires/codeeducation` para rodar a imagem que está no Docker Hub.
 2. Verificar a mensagem `Code.education Rocks!` no terminal.
-3. Executar `docker images | grep celso` e veificar que o tamanho da imagem celsopires/codeeducation:latest é 1,95MB.
+3. Executar `docker images | grep celso` e verificar que o tamanho da imagem celsopires/codeeducation:latest é 1,95MB.
 
 ### Lembretes
 
